@@ -10,6 +10,7 @@
     <title>CV</title>
 </head>
 <body>
+    <script src="scrip.js"></script>
     <div class="franja">
 
         <div class="datos">
@@ -28,12 +29,14 @@
             <h3>Contacto</h3>
             <br>
             <i class="fa-solid fa-phone"></i>
-            <i class="fa-brands fa-whatsapp"></i>
-            <i class="fa-solid fa-envelope"></i>
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.gmail.com/" target="_blank"><i class="fa-solid fa-envelope"></i></a>
             <br>
-            <i href="https://www.facebook.com/" class="fa-brands fa-facebook"> </i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
+            
+            <a href="https://www.facebook.com/" target="_blank"> <i  class="fa-brands fa-facebook"></i></a>
+        
+            <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         </div>
 
     </div>
@@ -45,38 +48,22 @@
         <img class="foto" src="https://randomuser.me/api/portraits/women/48.jpg" alt="Girl in a jacket" width="200" height="200">
     </div>
 
-    <div class="otros">
-        <h3>Sobre mi:</h3>
-        <br>
-        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae, facilis perferendis eos quo explicabo quos iusto impedit aliquam laboriosam magni porro sunt cumque distinctio fugit molestias voluptates placeat deleniti voluptas.</p>
-       <br>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad consequuntur ea, quod id dolore debitis distinctio quis labore quae voluptatibus recusandae illo laudantium quidem ex voluptas quia porro laborum cumque?</p>
-            <br><br><br>
-        <h3>Educación</h3>
-        <br>
-        <ul>
-            <li>E.E.S.T.N°1</li>
-            Título: Maestro Mayor de Obras
-            <br>
-            Año de egreso: 2011
-            <br>
-            <br>
-            <li>ISFD N°160</li>
-            Título: Profesora de matemática
-            <br>
-            Año de egreso: 2016
-            <br>
-            <br>
-            <li>ISFT N°29</li>
-            Título: Téctica superior en desarrollo de software
-            <br>
-            En proceso
-            <br>
-        </ul>
 
-    </div>
+    <div>
+        <button type="button" class="boton" onclick="myFunction()">Sobre mi</button>
+        <button type="button" class="botone" onclick="myFunctione()">Educación</button>
+        <button type="button" class="botonex" onclick="myFunctionex()">Experiencia</button>
+    </div>    
+    <div class="otros" id="sobre"> </div>
+    <div class="otros" id="edu"> </div>
+    <div class="otros" id="ex"> </div>  
+    
+    </div> 
+
    
 
+
+    
     
 </body>
 </html>
